@@ -8,12 +8,30 @@
 
 .header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: start;
     background-color: #1f2937;
     width: 100vw;
     margin: 0;
     color: #f9faf8;
+    padding-top: 25px;
+
 }
+
+.header-logo{
+font-size: 24px;
+font-weight: 800;
+}
+
+.header-links{
+    font-size: 16px;
+    font-weight: 300;
+    color: #e5e7eb;
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+}
+
 
 .hero{
     display: flex;
