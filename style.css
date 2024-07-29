@@ -95,14 +95,30 @@ a {
 .random-sections{
     list-style-type: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     color: #1f2937;
     text-transform: lowercase;
 }
+
+.image-container{
+    width: 200px; /* Adjust the width as needed */
+    padding: 10px; /* Add padding if needed */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    text-align: center; /* Center align the text */
+}
+
+
 .image-container img{
     border: #3882f6 solid;
     border-width: 3px;
     border-radius: 10px;
+}
+
+.image-container .subtext {
+    font-size: 18px; /* Adjust the font size as needed */
+    color: #666; /* Adjust the text color as needed */
+    margin-top: 10px; /* Add space between image and text */
+    word-wrap: break-word; /* Ensure the text wraps within the container */
 }
 
 .testimonial{
