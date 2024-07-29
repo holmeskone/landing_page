@@ -124,22 +124,50 @@ a {
     word-wrap: break-word; /* Ensure the text wraps within the container */
 }
 
-.testimonial{
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-color: #e5e7eb;
 
+/* Overall styling for the testimonial section */
+.testimonial-section {
+    background-color: #e5e7eb; /* Light gray background */
+    padding: 40px 20px; /* Padding around the section */
+    display: flex;
+    justify-content: center; /* Centering the testimonial content */
+    margin: 40px 0; /* Adding vertical space around the section */
 }
 
-.testimonial p{
-    font-size: 36px;
-    font-style: italic;
-    font-weight: 300;
-    color: #1f2937;
+/* Styling for the individual testimonial box */
+.testimonial {
+    padding: 20px 40px; /* Padding inside the quote box */
+    max-width: 850px; /* Limiting the width of the testimonial */
+}
+
+/* Styling for the quote text */
+.quote {
+    font-style: italic; /* Italicized quote */
+    font-weight: light;
+    color: #1f2937; /* Slightly darker gray color */
+    font-size: 36px; /* Adjust font size */
+    margin-bottom: 20px; /* Space between quote and author */
+}
+
+/* Styling for the author's name */
+.author {
+    text-align: right; /* Right-aligning the author text */
+    font-weight: bold; /* Making the author's text bold */
+    color: #1f2937; /* Darker color for the author's name */
+    font-size: 16px; /* Slightly smaller font size for the author's name */
 }
 
 .calltoaction {
     background-color: white;
     padding-top: 50px ;
     padding-bottom: 100px;
+}
+
+.calltoaction .cta {
+    background-color:#3882f6;
+    color: white;
+}
+.calltoaction button{
+    background-color: transparent;
+
 }
