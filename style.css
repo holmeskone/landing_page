@@ -131,7 +131,7 @@ a {
     padding: 40px 20px; /* Padding around the section */
     display: flex;
     justify-content: center; /* Centering the testimonial content */
-    margin: 40px 0; /* Adding vertical space around the section */
+
 }
 
 /* Styling for the individual testimonial box */
@@ -143,7 +143,6 @@ a {
 /* Styling for the quote text */
 .quote {
     font-style: italic; /* Italicized quote */
-    font-weight: light;
     color: #1f2937; /* Slightly darker gray color */
     font-size: 36px; /* Adjust font size */
     margin-bottom: 20px; /* Space between quote and author */
@@ -159,13 +158,15 @@ a {
 
 .calltoaction {
     background-color: white;
-    padding-top: 50px ;
-    padding-bottom: 100px;
+    padding: 50px 200px;
 }
 
 .calltoaction .cta {
+    display: flex;
+    justify-content: center;
     background-color:#3882f6;
     color: white;
+    border-radius: 10px;
 }
 .calltoaction button{
     background-color: transparent;
