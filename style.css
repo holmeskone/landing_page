@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header{
@@ -38,13 +38,21 @@
 
 .hero-content p {
     font-size: 18px;
-    font-weight: lighter;
+    font-weight: 400;
     color: #e5e7eb;
 }
 
 .hero-content button {
     background-color: #3882f6;
     color: white;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 10%;
+    border-color: transparent;
 
 }
 
