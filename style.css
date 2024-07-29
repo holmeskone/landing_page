@@ -79,6 +79,17 @@ a {
     text-decoration: none;
 }
 
+.random {
+    padding-top: 50px;
+    text-align: center;
+
+}
+
+.random-sections{
+    list-style-type: none;
+    display: flex;
+}
+
 
 /*
 .hero-content{
