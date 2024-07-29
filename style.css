@@ -45,7 +45,10 @@ font-weight: 800;
 }
 
 .hero-content{
+    padding-top: 75px;
+    padding-bottom: 75px;
     max-width: 500px;
+    
 }
 
 .hero-content h1 {
