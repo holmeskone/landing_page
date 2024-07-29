@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .header{
@@ -12,10 +13,6 @@
     width: 100vw;
     margin: 0;
     color: #f9faf8;
-}
-
-div{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .hero{
@@ -46,7 +43,7 @@ div{
 }
 
 .hero-content button {
-    background-color: blue;
+    background-color: #3882f6;
     color: white;
 
 }
