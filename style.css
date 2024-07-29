@@ -39,6 +39,12 @@ div{
 
 }
 
+.hero-content p {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #e5e7eb;
+}
+
 .hero-content button {
     background-color: blue;
     color: white;
