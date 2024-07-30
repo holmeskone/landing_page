@@ -158,19 +158,19 @@ a {
     font-size: 16px; /* Slightly smaller font size for the author's name */
 }
 
-.calltoaction {
+.cta-section {
     background-color: white;
     padding: 50px 200px;
 }
 
-.calltoaction .cta {
+.cta {
     display: flex;
     justify-content: center;
     background-color:#3882f6;
     color: white;
     border-radius: 10px;
 }
-.calltoaction button{
+.cta button{
     background-color: transparent;
 
 }
