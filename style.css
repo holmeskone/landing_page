@@ -198,3 +198,15 @@ a {
     color: white;
 
 }
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-color: #1f2937;
+    width: 100vw;
+    padding: 25px;
+    color: #f9faf8;
+    padding-top: 25px;
+
+}
